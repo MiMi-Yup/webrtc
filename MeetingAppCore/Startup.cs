@@ -40,7 +40,7 @@ namespace MeetingAppCore
                 options.AddPolicy(name: MyAllowSpecificOrigins,
                                   builder =>
                                   {
-                                      builder.WithOrigins("https://localhost:4200")
+                                      builder.WithOrigins("https://mee3ting.netlify.app")
                                       .AllowAnyHeader()
                                       .AllowAnyMethod()
                                       .AllowCredentials();
